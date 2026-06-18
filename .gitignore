@@ -1,0 +1,56 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Local LLM Models
+
+LLMMODEL/
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# ChromaDB / Vector Database
+
+chroma/
+chroma_db/
+vectorstore/
+db/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+temp/
+tmp/
+
+# Google Colab
+
+/content/
+
+# Cache
+
+.cache/
